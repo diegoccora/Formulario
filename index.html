@@ -8,14 +8,21 @@
 </head>
 <body>
     <div class="container">
+
+        <div class="form-group">
+            <label for="txtColor">Color</label>
+            <input type="color" id="txtColor" class="form-control">
+
+        </div>
+
         <div class="form-group">
             <label for="txtCodigo">Código</label>
-            <input type="text" id="txtCodigo" class="form-control">
+            <input type="text" id="txtCodigo" class="form-control" placeholder="Ingrese Código" maxlength="3" disabled value="10">
         </div>
 
         <div class="form-group">
             <label for="txtApPaterno">Apellido Paterno</label>
-            <input type="text" id="txtCodigo" class="form-control">
+            <input type="text" id="txtCodigo" class="form-control" placeholder="Ingrese Apellido paterno">
         </div>
 
         <div class="form-group">
@@ -25,7 +32,7 @@
 
         <div class="form-group">
             <label for="txtEdad">Edad</label>
-            <input type="number" id="txtEdad" class="form-control">
+            <input type="number" id="txtEdad" class="form-control" >
         </div>
 
         <div class="form-group">
@@ -59,6 +66,10 @@
             <input type="date" id="txtFecha" class="form-control">
         </div>
         
+        <div class="form-group">
+            <label for="txtHora">Hora</label>
+            <input type="time" id="txtHora" class="form-control">
+        </div>
 
         <div class="form-group">
             <label for="txtMensaje">Mensaje</label>
